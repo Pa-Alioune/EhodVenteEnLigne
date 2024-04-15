@@ -36,3 +36,14 @@ Si vous avez installé MSSQL Express, la valeur à utiliser pour Server est trè
   
 Si vous avez des difficultés à vous connecter, essayez d’abord de vous connecter à l’aide de Microsoft SQL Server Management Studio (assurez-vous que le type d’authentification est « Authentification Windows »), ou consultez le site https://sqlserver-help.com/2011/06/19/help-whats-my-sql-server-name/.
 Si le problème persiste, demandez de l’aide à votre mentor.
+
+
+Le projet a été enrichi avec plusieurs fonctionnalités et améliorations, incluant :
+
+Internationalisation : La prise en charge de plusieurs langues a été mise en place dans l'application. Les messages d'erreur et autres textes statiques ont été externalisés dans des fichiers de ressources pour faciliter la traduction. En outre, le wolof a été ajouté parmi les langues supportées.
+
+- Tests Unitaires pour la Validation des Modèles : Des tests unitaires ont été intégrés pour vérifier la validité des modèles de données. Cela assure une validation adéquate des données entrées par l'utilisateur avant leur traitement par l'application.
+
+- Emplacement des Messages d'Erreurs Personnalisés : Les messages d'erreur personnalisés ont été déplacés vers des fichiers de ressources dédiés pour une gestion plus efficace. Leur emplacement a été spécifiquement organisé pour correspondre aux champs concernés, améliorant ainsi la lisibilité et la gestion des erreurs.
+
+Papa Alioune Dramé KANDJI
